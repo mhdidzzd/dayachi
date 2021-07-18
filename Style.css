@@ -1,0 +1,111 @@
+@import url('http://fonts.cdnfonts.com/css/cheltenham-lt');
+@import url('http://fonts.cdnfonts.com/css/bunya-personal');
+@import url('http://fonts.cdnfonts.com/css/neue-helvetica-bq');
+
+body{
+
+}
+.header{
+    text-align: center;
+    font-family: 'Neue Helvetica BQ', sans-serif;
+    font-weight: bold;
+}
+.header h1{
+    margin: 0;
+    margin-top: 25px;
+    font-size: 50px;
+}
+.header p{
+    margin: 0;
+}
+.header a{
+    font-family: 'Bunya PERSONAL', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+.log_bag{
+    display: block;
+    float: right;
+    margin-right: 40px;
+}
+.Big_info{
+    background: url(Images/Euphoria-bg.jpeg) no-repeat center/100% 100% ;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+p.big_info{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bunya PERSONAL', sans-serif;
+}
+div.presentation_principale{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div.presentation_principale p{
+    text-align: center;
+    font-family: 'Bunya PERSONAL', sans-serif;
+}
+img.img-presentation{
+    width: 100%;
+    margin: 0;
+}
+div.img-presentation{
+    width: 32.5%;
+    margin: 0;
+    display: inline-block;
+}
+div.img-presentation a{
+    font-size: 12px;
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a.tshirts-link{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Bunya PERSONAL', sans-serif;
+}
+
+@media only screen and (max-width: 767px){
+    div.img-presentation{
+        width: 100%;
+        margin-top: 10px;
+    }
+    div.presentation_principale{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .log_bag{
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+    div.presentation_principale{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .Big_info{
+        width: 90%;
+        max-width: 400px;
+    }
+}
